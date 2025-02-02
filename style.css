@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #00014F, #3066BE,#007FFF);
+    display: flex;
+    justify-content: center;
+
+}
+
+#container2 {
+    width: 543px;
+    height: 100px; /* Let the height be determined by content */
+    background-color: #F9C80E;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+
+}
+#todolist{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+    margin-bottom: 15px;
+}
+#textbox{
+    border: none;
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+#textbox::placeholder{
+    padding-left: 15px;
+}
+#Add{
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+    color: #c6ebbe;
+    background-color: #F86624;
+}
