@@ -7,16 +7,17 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(90deg, #00014F, #3066BE,#007FFF);
+    background: linear-gradient(90deg, #00014F, #9457eb);
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
 #container2 {
     width: 543px;
     height: 100px; /* Let the height be determined by content */
-    background-color: #F9C80E;
+    background-color: white;
     margin-top: 100px;
     display: flex;
     align-items: center;
@@ -35,12 +36,10 @@
     height: 30px;
     width: 250px;
     border-radius: 10px;
-    background-color: aliceblue;
-}
-#textbox::placeholder{
+    background-color: #EBEDEE;
     padding-left: 15px;
 }
-#Add{
+#add{
     height: 30px;
     width: 50px;
     border-radius: 10px;
@@ -48,4 +47,32 @@
     margin-bottom: 15px;
     color: #c6ebbe;
     background-color: #F86624;
+}
+#tasklist{
+    width: 543px;
+    height: auto; /* Let the height be determined by content */
+    padding: 50px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+}
+.task{
+    margin: 10px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+.circle{
+    width: 20px;
+    height:20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    opacity: 0.5;
 }
