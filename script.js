@@ -28,12 +28,15 @@ addButton.onclick=()=>{
         circleDiv.addEventListener("click", ()=>{
             if(li.style.textDecoration == "line-through"){
                 li.style.textDecoration="none";
+                li.style.opacity="1";
             }
             else{
                 li.style.textDecoration = "line-through";
+                li.style.opacity="0.5";
             }
+            
+            trashImg.style.opacity="1";
         })
-
         inputBox.value="";
     }
     else{
