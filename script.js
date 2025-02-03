@@ -5,7 +5,7 @@ const inputBox = document.querySelector("#textbox");
 addButton.onclick=()=>{
     const task=inputBox.value;
     console.log(task);
-    if(task !==""){
+    if(task.trim() !==""){
         const li=document.createElement("li");
         li.classList.add("task");
 
